@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>The Big Apple - Living in New York City</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="..\CSS\home.css">
+		<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@300;500&display=swap" rel="stylesheet">
+        
+	</head>
+
+    <body>
+    <div class="main_container">
+            <div class="header">
+                <div id="sel">
+                    <h1 id="head"> The Big <span> <img src="..\img\apple.png" width="25" height="25"></span> Apple </h1>
+                    <div id="google_translate_element" width="100px" height="200"></div>
+                </div>
+            </div>
+
+            <div id="container1">
+                <div id="tit">
+                    <h1>The Big Apple</h1>
+                    <h4 id="t2">A guide for immigrants who have just arrive to New York</h4>
+                </div>
+            </div>
+
+            
+            <nav class="menu">
+                    <img class ="menu_imag" class="anim" src="https://img.icons8.com/material-outlined/24/000000/menu--v3.png" alt=""/>
+                <div class="nav">
+                    <a href="#Home">Home</a>
+                    <a href="#Topics">Topics</a>
+                    <a href="..\HTML\contact.html">Contact</a>
+                </div>
+            </nav>
+            
+            <div id="container2">
+                <div id="inner_cont1">
+                    <h1 class="h">New York Guide</h1>
+                    <p id="p1">The Big Apple is a guide which is aimed at migrants who have just arrived in New York City.This guide is aimed at helping migrants settle in this new city and share information on basic services that are necessary for the lives of New Yorkers The information that you will found in this guide is basic but essential for daily life. </p>
+                </div>
+            </div>
+            <div id="container3" class="anim">
+                <h1 class="h" id="Topics">Topics</h1>
+                    <div class="div3">
+                        <a class="top_in" href="https://www.schools.nyc.gov/">
+                            <h6 class="h1_top">Health care</h6>
+                            <img class=img src="..\img\health.png ">
+                            <p class="in_p">Health insurance and health programs for both adults and children.</p>
+                        </a>
+                        <a class="top_in" href="..\HTML\education.html">
+                            <h6 class="h1_top">Education</h6>
+                            <img class=img src="..\img\edu.png">
+                            <p class="in_p">Financial aid, scholarships and the best places to study</p>
+                        </a>
+                        <a class="top_in" href="https://www1.nyc.gov/jobs/index.page">
+                            <h6 class="h1_top">Work</h6>
+                            <img class=img src="..\img\work.png">
+                            <p class="in_p">Laws, social security and social newtworks to find jobs </p>
+                        </a>
+                        </div>
+            </div>
+
+            <div id="container4" class="anim">
+                <h1 class="h">How is living in NYC?</h1>
+                <div id="div4">
+                    <div id="video">
+                        <iframe src="https://www.youtube-nocookie.com/embed/80b59LuwIrI"     height= "450px" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div id="text">
+                        <h6 class="h4"><span class="sp4">01</span> Cultural diversity everywhere</h6>
+                        <p class="p4">The city of New York throughout the years has been the destination of many migrants, it is known that 37% of the population has been born in another country. Therefore, you can meet people of different nationality and culture every day.</p>
+
+                        <h6 class="h4"><span class="sp4">02</span> Goodbye homemade food, hello fast food!</h6>
+                        <p class="p4">Busy work schedules can cause you to not have time to cook something to eat so fast food is the best option. In NYC, restaurants are full every day and you can find lines of people waiting to buy from food carts.</p>
+
+                        <h6 class="h4"><span class="sp4">03</span> Traffic and noise in the streets</h6>
+                        <p class="p4">Traffic is common in the city of NY so the noise of the whistles of trucks and cars can be annoying. Hearing the sound of ambulances in the middle of the night is common, so you must get used to the noise of this great city.</p>
+                    </div>
+                </div>
+        </div>
+            <div id="container5" class="anim">
+                    <h4 class="h">Testimonials </h4>
+                    <div id="user_div">
+                        <div class="user">
+                            <p class="user_p">"I am from Ecuaodor. She came to NY state when she was 25 years old. I wanted to continue my studies but had no idea where to start. Finding this website was a great help because it helped me to get an idea of the educational system of this country, so I am grateful for the information it provides. </p>
+                            <img class=img5 src="..\img\user1.jpg">
+                        </div>
+                        <div class="user">
+                            <p class="user_p">" I am from the Dominican Republic. When I arrived in this country, Idid not know anything about the services that the city of NY offers. A friend shared this website on a social network and I found useful information that helped me access the health and education systems for my children."</p>
+                            <img class=img5 src="..\img\user2.jpg" >
+                        </div>
+                    </div>
+            </div>
+            <div id="container6" class="anim">
+                <form>
+                            <h4>Comments</h4><br>
+
+                            First name<br>
+                            <input class="inp" type="text" name="fname"><br>
+                            Last Name <br>
+                            <input class="inp" type="text" name="lname"><br>
+                            Leave your comment here!<br>
+                            <textarea class="inp" cols="75" name="opinions" rows="4"></textarea><br>
+                            <input id="sub" type="button" name="Submit" value="Submit" onclick="sendComment()"><br>
+                </form>
+            </div>
+
+            <footer id="container7">
+                <div class="foo">
+                    <i class='bx bxl-facebook-circle bx-lg ' style='color:#2d46cd' ></i>
+                    <i class='bx bxl-youtube bx-lg' style='color:#fe2500' ></i>
+                    <i class='bx bxl-linkedin-square bx-lg' style='color:#4f9fe5'></i>
+                </div>
+                <div id="foot1">
+                        <p class="text-center">Copyright @2017 | Designed by Gabriela Guayara</p>
+                </div>
+            </footer>
+
+    </div>
+</body>
+<script src='..\JS\home.js'></script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</html>

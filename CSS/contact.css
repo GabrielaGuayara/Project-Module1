@@ -1,0 +1,111 @@
+*{ 
+	margin: 0;
+    border: 0;
+    padding:0;
+}
+.main_container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 50px 60px 1fr;
+    font-family: 'Alumni Sans', sans-serif;
+    overflow: hidden;
+    padding:10px;
+    background-color: #f1f1ee;
+}
+
+.header{
+    grid-column:1/4;
+    grid-row: 1/2;
+    background-color: #3797A4;
+    font-size: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    background-color: rgb(221, 175, 49);
+    animation-name: navg;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+}
+@keyframes navg {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+    
+}
+.nav{
+    background-color: wheat;
+    margin: 8px;
+    padding: 5px;
+    border: rgb(221, 166, 14) solid;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    
+}
+
+#nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#container{
+    grid-column: 2/3;
+    grid-row: 3/5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+h2{
+    font-size: 50px;
+    color:  rgb(31, 38, 139);
+}
+form{
+    width: 100%;
+    height: 80%;
+    font-size: 25px;
+    background-color: rgb(232, 246, 239);
+    border: #3797A4 solid;
+    padding-left: 30px;
+    margin-top: 10px;
+    border-radius: 20px;
+    text-align: left;
+}
+.user_inp{
+    width: 90%;
+    height: 30px;
+    border: rgb(55, 152, 164) solid;
+}
+#m_inp{
+    width: 90%;
+    height: 130px;
+    border: rgb(55, 152, 164) solid;
+}
+#button{
+    width:20%;
+    height: 50px;
+    background-color: rgb(118, 118, 165);
+    border-radius: 15px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+#button:hover{
+    background-color:rgb(55, 152, 164)
+}

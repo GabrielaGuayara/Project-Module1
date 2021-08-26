@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>Contact-The Big Apple</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="..\CSS\contact.css">
+		<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@300;500&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        
+
+        
+	</head>
+
+    <body>
+    <div class="main_container">
+            <div class="header">
+                <h1 id="head"> The Big <span> <img src="..\img\apple.png" width="25" height="25"></span> Apple </h1>
+                <div id="google_translate_element" width="100px" height="200"></div>
+            </div>
+            
+            <nav class="menu">
+                <div id="nav">
+                    <a class="nav" href="..\HTML\index.html">Home</a>
+                    <a class="nav" href="http://127.0.0.1:5500/HTML/education.html">Topic: Education</a>
+                </div>
+            </nav>
+            
+            <div id="container">
+                    <h2>Contact us</h2>
+                    <form id="form" method="post">
+                        <h4>Do you have any question or concerns? Feel free to send us a email!</h4><br>
+                            <label id="name" class="info" type="text" >Name</label><br>
+                            <input class="user_inp" type="text" name="fname"><br>
+
+                            <label id="lname" class="info" type="text" >Last Name</label><br>
+                            <input class="user_inp" type="text" name="lname"><br>
+
+                            <label id="email" class="info" type="text" >Email</label><br>
+                            <input class="user_inp" type="text" name="email"><br>
+
+                            <label id="message" class="info" type="text" >Message</label><br>
+                            <textarea id="m_inp" cols="75" name="message" rows="5"></textarea><br>
+                            <input type="submit" id="button" value="Send Email"
+                            onclick='sendEmail()'><br>
+                    </form>
+            </div>
+    </div>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script src='..\JS\contactpage.js'></script>
+</body>
+
+
+
+</html>
