@@ -44,7 +44,6 @@ function sendComment() {
   Email.send({
     Host : "smtp.gmail.com",
     Username : "gabriela.guayara26@gmail.com",
-    Password : "Ss5011989",
     To : 'daisyalex1989@gmail.com',
     From : "gabriela.guayara26@gmail.com",
     Subject : "This is a comment from The Big Apple Website",
