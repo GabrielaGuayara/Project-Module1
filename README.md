@@ -5,5 +5,4 @@ Moreover, The Big Apple is a module 1 project that demonstrates what I have lear
 
 Finally, The Big Apple website is my first project using the knowledge that I have acquired about HTML5, CSS3, and Javascript and I know there are many things that can be improved and learned. Thus, feel free to leave some comments and feedback about this website, I would really appreciate it. 
 
-GitHub: https://github.com/GabrielaGuayara/Project-Module1.git 
-
+Page: https://gabrielaguayara.github.io/Project-Module1/ 
