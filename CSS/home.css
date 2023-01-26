@@ -23,7 +23,7 @@
 }
 .anim{
     opacity: 0;
-    transition: all 2s;
+    transition: all 3s;
 }
 .up{
     animation: up_elem 1s;
